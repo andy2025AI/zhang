@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "@/pages/Home";
-import GeoService from "@/pages/GeoService";
-import FdeService from "@/pages/FdeService";
-import Cases from "@/pages/Cases";
-import About from "@/pages/About";
+import Home from "./pages/Home";
+import GeoService from "./pages/GeoService";
+import FdeService from "./pages/FdeService";
+import Cases from "./pages/Cases";
+import About from "./pages/About";
 
 export default function App() {
   return (
